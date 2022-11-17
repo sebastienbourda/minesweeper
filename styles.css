@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: url("img/background.png");
+  background-size: cover;
+  padding: 6vh;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #242424;
+  border-right: 2px solid #242424;
+  border-left: 2px solid #242424;
+  justify-content: space-between;
+  height: 10vh;
+  text-transform: uppercase;
+}
+
+header .cell {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: bold;
+}
+
+.title {
+  border-right: 2px solid #242424;
+  background: #1746A2;
+  color: #FAFAFA;
+}
+
+.interface {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.interface .cell {
+  border-left: 2px solid #242424;;
+  height: 100%;
+}
+
+.about {
+  background: #FF731D;
+}
+
+
+
+/* Content */
+
+#content {
+  border: 2px solid #242424;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content .line {
+  display: flex;
+  align-items: center;
+}
+
+#content .cell {
+  border-bottom: 2px solid #242424;
+  border-right: 2px solid #242424;
+  height: 40px;
+  width: 40px;
+}
+
+#content .line:first-of-type .cell {
+  border-top: 2px solid #242424;
+}
+
+#content .cell:first-child {
+  border-left: 2px solid #242424;
+}

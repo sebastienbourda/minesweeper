@@ -5,17 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minesweeper</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <link rel="stylesheet" href="minesweeper.css">
+  <!-- <link rel="stylesheet" href="minesweeper.css"> -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="cell title">minesweeper</div>
+    <div class="interface">
+      <div class="cell">mines: 10</div>
+      <div class="cell">times: 145s</div>
+      <div class="cell about">about</div>
+    </div>
+  </header>
+
+  <div id="content">
+    <div id="minesweeper"></div>
+  </div>
+
+  <!--
   <table>
     <tbody id="minesweeper">
-      <!-- Dear Student, would you write a bunch of HTML here or generate
-           a big array of tiles, or do it via JavaScript? -->
     </tbody>
   </table>
+  -->
 
   <!-- Including your code -->
-  <script type="text/javascript" src="lib/minesweeper.js"></script>
+  <!-- <script type="text/javascript" src="lib/minesweeper.js"></script> -->
+  <script type="text/javascript" src="lib/minesweeper2.js"></script>
 </body>
 </html>
