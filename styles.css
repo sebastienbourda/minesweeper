@@ -129,16 +129,10 @@ a {
 #content .line {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-#content .line .cell:first-of-type {
-  border-left: none !important;
-}
 
-#content .line .cell:last-of-type {
-  border-right: none !important;
-}
 
 #content .cell {
   /* height: calc(100vh/10);
