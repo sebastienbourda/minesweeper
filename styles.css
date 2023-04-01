@@ -133,6 +133,7 @@ a {
 #content {
   height: 90vh;
   width: 100vw;
+  padding: 0 32px;
   display: flex;
   align-items: center;
   justify-content: center;
