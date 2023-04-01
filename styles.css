@@ -133,7 +133,8 @@ a {
 #content {
   height: 90vh;
   width: 100vw;
-  padding: 0 32px;
+  border: 2px solid #1746A2;
+  /* padding: 0 32px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,8 +150,6 @@ a {
   justify-content: center;
 }
 
-
-
 #content .cell {
   /* height: calc(100vh/10);
   width: calc(100vw/10); */
@@ -160,6 +159,14 @@ a {
   font-weight: bold;
   font-size: 1.2rem;
   transition: all 0.2s;
+}
+
+#content .line .cell:first-of-type{
+  border-left: none;
+}
+
+#content .line .cell:last-of-type{
+  border-right: none;
 }
 
 

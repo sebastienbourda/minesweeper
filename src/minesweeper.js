@@ -1,3 +1,6 @@
+console.log("Well played! You found the source code! But wait, there is no clue ...");
+console.log("Minesweeper");
+console.log("By: Sébastien Bourda --> https://www.linkedin.com/in/sebastien-bourda/");
 const selectLevels = document.getElementById("levels");
 const body = document.querySelector("body");
 const minesweeper = document.getElementById("minesweeper");
@@ -202,7 +205,7 @@ function setMines() {
 
     playground[row][column] = "X";
   }
-  console.log(playground);
+  // console.log(playground);
 }
 
 
