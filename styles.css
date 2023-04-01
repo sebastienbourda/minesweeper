@@ -3,6 +3,22 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #FAFAFA;
+  color: #1746A2;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+}
+
 body {
   background: #FAFAFA;
   background-size: cover;
