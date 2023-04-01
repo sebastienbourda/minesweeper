@@ -314,4 +314,5 @@ const displayDisclaimer = (bool) => {
   disclaimer.hidden = false;
   disclaimer.style.zIndex = "1";
   disclaimer.style.opacity = "1";
+  console.log(`Number of lost games: ${lostGames}`);
 }
